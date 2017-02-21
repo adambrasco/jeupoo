@@ -21,9 +21,13 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <img src="img/warcraft-logo.png" class="center-block" style="width: 50%;" alt="">
-                    <p class="block-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-                        alias ea ex exercitationem facere, illo iste itaque minus nam nihil obcaecati officia quae
-                        quam quos sequi totam unde vitae voluptatibus.</p>
+                    <p class="block-center"><h2>Prêt à vous lancer dans l'aventure ?</h2>
+                    <ul><h3>Les règles sont simples :</h3>
+                        <li>Choississez votre classe</li>
+                        <li>Découvrez le donjon</li>
+                        <li>Faites évoluer votre personnage</li>
+                    </ul>
+                    </p>
                     <a href="view/profil.php">
                         <button type=" button" class="btn btn-warning center-block">Jouer !</button>
                     </a>

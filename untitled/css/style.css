@@ -1,7 +1,6 @@
 body {
     background-image:url(../img/background.jpg) ;
     background-size: cover;
-<<<<<<< HEAD
 }
 .jouer{
     background-color: white;
@@ -18,8 +17,6 @@ body {
 }
 p{
     color: antiquewhite;
-}
-=======
     -webkit-background-size: cover;
 }
 
@@ -270,4 +267,13 @@ p{
 }
 
 .btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
->>>>>>> master
+ul{
+    color: white;
+    padding: 10%;
+}
+li{
+    padding: 6%;
+    font-size: large;
+}
+h2{ color: white;
+}
