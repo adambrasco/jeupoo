@@ -1,5 +1,20 @@
 body {
     background-image:url(../img/background.jpg) ;
     background-size: cover;
-    -webkit-background-size: cover;
+}
+.jouer{
+    background-color: white;
+    color: black;
+}
+.panel-default{
+    background-color: rgba(61, 131, 232, 0.5);
+}
+.btn{
+    width: 50%;
+    font-size: large;
+    font-family: "Gill Sans";
+    color: white;
+}
+p{
+    color: antiquewhite;
 }
