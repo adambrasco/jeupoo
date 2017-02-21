@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c91f7a-0892-4b8c-a159-6af3de2eb1fa" name="Default" comment="">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/style.css" afterPath="$PROJECT_DIR$/untitled/css/style.css" />
 >>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/index.php" afterPath="$PROJECT_DIR$/untitled/index.php" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/untitled/view/choix.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/style.css" afterPath="$PROJECT_DIR$/untitled/css/style.css" />
+>>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,9 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <state relative-caret-position="532">
               <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
@@ -34,16 +41,35 @@
             <state relative-caret-position="255">
               <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="198">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="choix.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untitled/view/choix.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="75">
               <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+=======
+            <state relative-caret-position="313">
+              <caret line="195" column="20" lean-forward="false" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -57,8 +83,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/untitled/css/style.css" />
         <option value="$PROJECT_DIR$/untitled/index.php" />
+        <option value="$PROJECT_DIR$/untitled/view/choix.php" />
+        <option value="$PROJECT_DIR$/untitled/css/style.css" />
       </list>
     </option>
   </component>
@@ -238,21 +265,29 @@
       <option name="presentableId" value="Default" />
       <updated>1487673778389</updated>
       <workItem from="1487673779650" duration="411000" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <workItem from="1487674648050" duration="650000" />
 =======
       <workItem from="1487674648050" duration="323000" />
       <workItem from="1487674987536" duration="313000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1487674648050" duration="2763000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="1061000" />
 =======
     <option name="totallyTimeSpent" value="1047000" />
 >>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="3174000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -320,6 +355,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/untitled/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -344,12 +380,27 @@
         <state relative-caret-position="255">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/untitled/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/index.php">
+    <entry file="file://$PROJECT_DIR$/untitled/view/choix.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         <state relative-caret-position="532">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
@@ -357,6 +408,10 @@
         <state relative-caret-position="75">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="313">
+          <caret line="195" column="20" lean-forward="false" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
