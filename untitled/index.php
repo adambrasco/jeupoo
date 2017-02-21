@@ -28,7 +28,7 @@
                         <li>Faites évoluer votre personnage</li>
                     </ul>
                     </p>
-                    <a href="view/profil.php">
+                    <a href="view/choix.php">
                         <button type=" button" class="btn btn-warning center-block">Jouer !</button>
                     </a>
                 </div>
