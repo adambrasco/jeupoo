@@ -16,6 +16,19 @@
 </head>
 <body>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashboard</div>
 
-<button type="button">Jouer !</button>
+                <div class="panel-body">
+                    <button type="button">Jouer !</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
