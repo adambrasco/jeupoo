@@ -1,0 +1,14 @@
+body {
+    background-image:url(../img/gameover.png) ;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: "Monaco";
+    border: double;
+    border-width: 10px;
+    width: 16.5%;
+}
+.panel{
+    margin-top: 115%;
+}

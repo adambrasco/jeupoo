@@ -29,7 +29,7 @@
                     </ul>
                     </p>
                     <a href="view/choix.php">
-                        <button type=" button" class="btn btn-warning center-block">Jouer !</button>
+                        <button type=" button" class="btn-warning center-block">Jouer !</button>
                     </a>
                 </div>
             </div>
