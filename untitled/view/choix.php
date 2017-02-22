@@ -30,7 +30,7 @@
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="../img/guerrier.png">Guerrier</a>
+                        <a target="_blank" href="donjon.php">Guerrier</a>
                     </div>
                     <div class="desc">Passionate designer</div>
                     <div class="desc">Curious developer</div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="http://scripteden.com/">Mage</a>
+                        <a target="_blank" href="donjon.php">Mage</a>
                     </div>
                     <div class="desc">Passionate designer</div>
                     <div class="desc">Curious developer</div>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="http://scripteden.com/">Paladin</a>
+                        <a target="_blank" href="donjon.php">Paladin</a>
                     </div>
                     <div class="desc">Passionate designer</div>
                     <div class="desc">Curious developer</div>
