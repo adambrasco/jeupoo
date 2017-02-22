@@ -26,7 +26,7 @@
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                    <img alt="" src="../img/guerrier.png">
                 </div>
                 <div class="info">
                     <div class="title">
