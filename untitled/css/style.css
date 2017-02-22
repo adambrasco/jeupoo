@@ -7,7 +7,12 @@ body {
     color: black;
 }
 .panel-default{
-    background-color: rgba(61, 131, 232, 0.5);
+    background-color: rgba(30, 30, 33, 0.7);
+}
+.panel{
+    border: 10px;
+}
+.panel1{
 }
 .btn{
     width: 50%;
@@ -17,7 +22,6 @@ body {
 }
 p{
     color: antiquewhite;
-    -webkit-background-size: cover;
 }
 
 

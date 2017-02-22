@@ -20,7 +20,7 @@
         <div class="panel1 col-md-6 col-md-offset-3">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <img src="img/warcraft-logo.png" class="center-block" style="width: 50%;" alt="">
+                    <img src="img/warcraft-logo.png" class="center-block" style="margin-bottom: -150px; margin-top: -50px;" alt="">
                     <p class="block-center"><h2>Prêt à vous lancer dans l'aventure ?</h2>
                     <ul><h3>Les règles sont simples :</h3>
                         <li>Choississez votre classe</li>
