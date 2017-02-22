@@ -1,6 +1,22 @@
 body {
     background-image:url(../img/background.jpg) ;
     background-size: cover;
+}
+.jouer{
+    background-color: white;
+    color: black;
+}
+.panel-default{
+    background-color: rgba(61, 131, 232, 0.5);
+}
+.btn{
+    width: 50%;
+    font-size: large;
+    font-family: "Gill Sans";
+    color: white;
+}
+p{
+    color: antiquewhite;
     -webkit-background-size: cover;
 }
 
@@ -197,7 +213,7 @@ body {
     margin-top: 100px;
     overflow: hidden;
     text-align: center;
-    background-color: rgba(214, 224, 226, 0.2);
+    background-color: rgba(214, 224, 226, 0.4);
 }
 
 .card.hovercard .cardheader {
@@ -241,7 +257,7 @@ body {
     overflow: hidden;
     font-size: 12px;
     line-height: 20px;
-    color: #737373;
+    color: white;
     text-overflow: ellipsis;
 }
 
@@ -251,3 +267,13 @@ body {
 }
 
 .btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+ul{
+    color: white;
+    padding: 10%;
+}
+li{
+    padding: 6%;
+    font-size: large;
+}
+h2{ color: white;
+}

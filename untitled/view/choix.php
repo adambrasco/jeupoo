@@ -26,11 +26,11 @@
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                    <img alt="" src="../img/guerrier.png">
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="http://scripteden.com/">Guerrier</a>
+                        <a target="_blank" href="donjon.php">Guerrier</a>
                     </div>
                     <div class="desc">Passionate designer</div>
                     <div class="desc">Curious developer</div>
@@ -56,18 +56,18 @@
 
         </div>
 
-        <!-- Paladin !-->
+        <!-- Magicien !-->
         <div class="col-lg-4">
 
             <div class="card hovercard">
                 <div class="cardheader">
                 </div>
                 <div class="avatar">
-                    <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                    <img alt="" src="../img/mage.jpg">
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="http://scripteden.com/">Guerrier</a>
+                        <a target="_blank" href="donjon.php">Mage</a>
                     </div>
                     <div class="desc">Passionate designer</div>
                     <div class="desc">Curious developer</div>
@@ -93,7 +93,7 @@
 
         </div>
 
-<!-- Magicien !-->
+<!-- Paladin !-->
 
         <div class="col-lg-4">
 
@@ -102,11 +102,11 @@
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                    <img alt="" src="../img/paladin.jpg">
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="http://scripteden.com/">Guerrier</a>
+                        <a target="_blank" href="donjon.php">Paladin</a>
                     </div>
                     <div class="desc">Passionate designer</div>
                     <div class="desc">Curious developer</div>
