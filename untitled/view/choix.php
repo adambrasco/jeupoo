@@ -32,9 +32,9 @@
                     <div class="title">
                         <a target="_blank" href="donjon.php">Guerrier</a>
                     </div>
-                    <div class="desc">Passionate designer</div>
-                    <div class="desc">Curious developer</div>
-                    <div class="desc">Tech geek</div>
+                    <div class="desc">Attaquant en mélée</div>
+                    <div class="desc">Forte frappe d'attaque</div>
+                    <div class="desc">Sénégalais</div>
                 </div>
                 <div class="bottom">
                     <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
@@ -70,9 +70,9 @@
                     <div class="title">
                         <a target="_blank" href="donjon.php">Mage</a>
                     </div>
-                    <div class="desc">Passionate designer</div>
-                    <div class="desc">Curious developer</div>
-                    <div class="desc">Tech geek</div>
+                    <div class="desc">Assassin à distance</div>
+                    <div class="desc">Sage</div>
+                    <div class="desc">Congolais</div>
                 </div>
                 <div class="bottom">
                     <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
@@ -109,9 +109,9 @@
                     <div class="title">
                         <a target="_blank" href="donjon.php">Paladin</a>
                     </div>
-                    <div class="desc">Passionate designer</div>
-                    <div class="desc">Curious developer</div>
-                    <div class="desc">Tech geek</div>
+                    <div class="desc">Assassin au corp à corp</div>
+                    <div class="desc">Polyvalent</div>
+                    <div class="desc">Malien</div>
                 </div>
                 <div class="bottom">
                     <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
