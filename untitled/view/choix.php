@@ -16,17 +16,17 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container col-lg-10 col-md-offset-1 ">
     <div class="row">
 
         <!-- Guerrier!-->
         <div class="col-lg-4">
             <div class="card hovercard">
-                <div class="cardheader">
+                <div class="cardheader1">
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="../img/guerrier.png">
+                    <img alt="" src="../img/3.jpg">
                 </div>
                 <div class="info">
                     <div class="title">
@@ -60,10 +60,11 @@
         <div class="col-lg-4">
 
             <div class="card hovercard">
-                <div class="cardheader">
+                <div class="cardheader2">
+
                 </div>
                 <div class="avatar">
-                    <img alt="" src="../img/mage.jpg">
+                    <img alt="" src="../img/1.jpg">
                 </div>
                 <div class="info">
                     <div class="title">
@@ -98,11 +99,11 @@
         <div class="col-lg-4">
 
             <div class="card hovercard">
-                <div class="cardheader">
+                <div class="cardheader3">
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="../img/paladin.jpg">
+                    <img alt="" src="../img/2.jpg">
                 </div>
                 <div class="info">
                     <div class="title">
