@@ -15,7 +15,15 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
+<?php
+require_once 'guerrier.php';
+require_once 'magicien.php';
+require_once 'paladin.php';
+require_once 'monstre.php';
+require_once 'jeu.php';
+session_start();
 
+?>
 <div class="container col-lg-10 col-md-offset-1 ">
     <div class="row">
 
@@ -55,7 +63,14 @@
             </div>
 
         </div>
-
+        <form method="post" action="donjon.php">
+            <select name="classe" id="classe">
+                <option value="paladin">Paladin</option>
+                <option value="guerrier">Guerrier</option>
+                <option value="mage">Mage</option>
+            </select>
+            <input type="submit" value="choisis ton personnage">
+        </form>
         <!-- Magicien !-->
         <div class="col-lg-4">
 

@@ -18,11 +18,12 @@ class Guerrier
     }
     public function attaque($cible)
     {
+
         $cible->degats($this->attaque);
     }
-    public function degats()
+    public function degats($degats)
     {
-        return $this->degats;
+        $this->vie -= $degats;
     }
     public function experience()
     {

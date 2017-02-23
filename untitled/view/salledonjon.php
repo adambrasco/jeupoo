@@ -1,8 +1,8 @@
 <?php
 class salledonjon
 {
-    private $_potiondevie = 100;
-    private $_coffres = array('potion de vie', 'baton de magicien', 'épée');
+    private $potiondevie = 100;
+    private $coffres = array('potion de vie', 'baton de magicien', 'épée');
 
 
     public function observer()
@@ -12,7 +12,7 @@ class salledonjon
 
     public function ouvriruncoffre()
     {
-
+        $this->coffres = array_rand($coffres, 2);
     }
 
     public function ouvrirporte()

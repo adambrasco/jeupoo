@@ -1,18 +1,15 @@
 <?php
 session_start();
-
 require_once 'guerrier.php';
 require_once 'magicien.php';
 require_once 'paladin.php';
 require_once 'monstre.php';
+require_once 'jeu.php';
 
-$guerrier = new Guerrier;
-$mage = new Mage;
-$monstre = new Monstre;
 
-$guerrier->regenerer();
-$guerrier->attaque($monstre);
+$personnage = $_POST["classe"];
+$jeu = new Jeu();
+$jeu->choix($personnage);
+$_SESSION['personnage'] = $jeu->perso;
 
-var_dump($mage);
-var_dump($guerrier);
-var_dump($monstre);
+var_dump($_SESSION);

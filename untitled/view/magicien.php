@@ -1,32 +1,32 @@
 <?php
 class Mage
 {
-    private $_magie = 100;
-    private $_vie = 100;
-    private $_armure = 50;
-    private $_arme;
-    private $_degats;
-    private $_experience = 0;
+    private $magie = 100;
+    private $vie = 100;
+    private $armure = 50;
+    private $arme;
+    private $degats;
+    private $experience = 0;
 
     public function sort($monstreAFrapper)
     {
-        $monstreAFrapper->_degats +=$this->_magie;
+        $monstreAFrapper->degats +=$this->magie;
     }
     public function force()
     {
-        return $this->_force;
+        return $this->force;
     }
     public function degats()
     {
-        return $this->_degats;
+        return $this->degats;
     }
     public function experience()
     {
-        return $this->_experience;
+        return $this->experience;
     }
     public function mort()
     {
-        $this->_vie = 0;
+        $this->vie = 0;
     }
 }
 $mage = new Mage;
