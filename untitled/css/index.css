@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Ribeye';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ribeye"), local("Ribeye-Regular"), url(http://themes.googleusercontent.com/static/fonts/ribeye/v2/H5cwhySbeY4ssMsmso3f7evvDin1pK8aKteLpeZ5c0A.woff) format("woff");
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+a {
+    text-decoration: none;
+    color: #F8A30F;
+}
+html {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+/* タイルのサイズ */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image:url(../img/background.jpg) ;
+    background-size: cover;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* アウトラインを切っておく */
+.gameStage :focus {
+    outline: 1px solid rgba(0, 0, 0, 0);
+    /* 0pxやnoneだと消えないので仕方なくrgbaで消えているようにみせる */
+}
+
+.warning{
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+/* スタート画面 */
+.startStage {
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 2px 3px white inset, -1px -2px 3px white inset;
+    background-color: #6d695c;
+    background-image: repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), linear-gradient(60deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1)), linear-gradient(120deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1));
+    background-size: 70px 120px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: table;
+    margin: auto;
+    position: relative;
+    line-height: 1.6;
+    /* スタートボタン押した後は#firstに飛ぶようにする */
+}
+.startStage h1 {
+    font-size: 400%;
+    font-family: 'Ribeye', cursive;
+}
+.startStage h1 i:nth-child(0) {
+    position: relative;
+    color: goldenrod;
+    animation-name: effectVibration2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.startStage h1 i:nth-child(1) {
+    position: relative;
+    color: goldenrod;
+    animation-name: effectVibration2;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.startStage h1 i:nth-child(2) {
+    position: relative;
+    animation-name: effectVibration2;
+    animation-duration: 2s;
+    color: goldenrod;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.startStage h1 i:nth-child(3) {
+    position: relative;
+    animation-name: effectVibration2;
+    animation-duration: 2s;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    color: goldenrod;
+}
+.startStage h1 i:nth-child(4) {
+    position: relative;
+    animation-name: effectVibration2;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    color: goldenrod;
+    animation-iteration-count: 1;
+}
+.startStage h1 i:nth-child(5) {
+    position: relative;
+    animation-name: effectVibration2;
+    animation-duration: 2s;
+    color: goldenrod;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.startStage h1 i:nth-child(6) {
+    position: relative;
+    animation-name: effectVibration2,jumpAnim;
+    animation-duration: 2s,1s;
+    color: goldenrod;
+    animation-delay: 1.2s, 3.8s;
+    animation-direction: alternate, normal;
+    animation-fill-mode: both, both;
+    animation-iteration-count: 1, 1;
+}
+.startStage > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.startStage [for="start"] {
+    border: 10px solid #615650;
+    border-radius: 14px;
+    background-clip: padding-box;
+    background-color: #645047;
+    box-shadow: 8px 13px 13px rgba(4, 0, 0, 0.13), inset 0 0 5px rgba(255, 255, 255, 0.24), 0px 1px 0px #3a1c04, 0px 2px 0px #3a1c04, 0px 3px 0px #3a1c04;
+    padding: 10px;
+    position: relative;
+    margin: 20px auto;
+    nav-up: #first;
+    nav-right: #first;
+    nav-down: #first;
+    nav-left: #first;
+    display: block;
+    border: 1px solid #482511;
+    font-family: 'Ribeye', cursive;
+    color: #F8A30F;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1);
+    width: 30%;
+    cursor: pointer;
+}
+.startStage [for="start"]:focus {
+    background-color: #92776A;
+    outline: 1px solid rgba(0, 0, 0, 0);
+}
