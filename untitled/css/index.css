@@ -26,6 +26,8 @@ time, mark, audio, video {
     font-size: 100%;
     vertical-align: baseline;
 }
+h2, p{
+    font-family: 'Ribeye', cursive;}
 a {
     text-decoration: none;
     color: #F8A30F;
