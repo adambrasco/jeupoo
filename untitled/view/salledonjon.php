@@ -5,6 +5,10 @@ class salledonjon
     private $coffres = array('potion de vie', 'baton de magicien', 'épée');
 
 
+    public function initdonjon()
+    {
+
+    }
     public function observer()
     {
 

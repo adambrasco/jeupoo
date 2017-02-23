@@ -38,7 +38,12 @@ session_start();
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="donjon.php">Guerrier</a>
+                        <form method="post" action="donjon.php">
+                            <select name="classe" id="classe">
+                                <option value="guerrier">Guerrier</option>
+                            </select>
+                            <input type="submit" value="Start">
+                        </form>
                     </div>
                     <div class="desc">Attaquant en mélée</div>
                     <div class="desc">Forte frappe d'attaque</div>
@@ -63,14 +68,6 @@ session_start();
             </div>
 
         </div>
-        <form method="post" action="donjon.php">
-            <select name="classe" id="classe">
-                <option value="paladin">Paladin</option>
-                <option value="guerrier">Guerrier</option>
-                <option value="mage">Mage</option>
-            </select>
-            <input type="submit" value="choisis ton personnage">
-        </form>
         <!-- Magicien !-->
         <div class="col-lg-4">
 
@@ -83,7 +80,12 @@ session_start();
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="donjon.php">Mage</a>
+                        <form method="post" action="donjon.php">
+                            <select name="classe" id="classe">
+                                <option value="mage">Mage</option>
+                            </select>
+                            <input type="submit" value="Start">
+                        </form>
                     </div>
                     <div class="desc">Assassin à distance</div>
                     <div class="desc">Sage</div>
@@ -122,7 +124,12 @@ session_start();
                 </div>
                 <div class="info">
                     <div class="title">
-                        <a target="_blank" href="donjon.php">Paladin</a>
+                        <form method="post" action="donjon.php">
+                            <select name="classe" id="classe">
+                                <option value="paladin">Paladin</option>
+                            </select>
+                            <input type="submit" value="Start">
+                        </form>
                     </div>
                     <div class="desc">Assassin au corp à corp</div>
                     <div class="desc">Polyvalent</div>
