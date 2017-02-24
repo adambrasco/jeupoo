@@ -8,17 +8,14 @@ class Mage
     private $degats;
     private $experience = 0;
 
-    public function sort($monstreAFrapper)
+    public function attaque($cible)
     {
-        $monstreAFrapper->degats +=$this->magie;
+
+        $cible->degats($this->magie);
     }
-    public function force()
+    public function degats($degats)
     {
-        return $this->force;
-    }
-    public function degats()
-    {
-        return $this->degats;
+        $this->vie -= $degats;
     }
     public function experience()
     {
@@ -26,7 +23,10 @@ class Mage
     }
     public function mort()
     {
-        $this->vie = 0;
+        if ($this->vie <= 0){
+            echo "il vous reste" .$this->vie. "";
+        }else{
+            echo "<br>il vous reste" .$this->vie. "points de vie";
+        }
     }
 }
-$mage = new Mage;

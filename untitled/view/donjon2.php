@@ -20,9 +20,10 @@ var_dump($coffres1);*/
 $monstre = new Monstre();
 
 
+
+
 $_SESSION['personnage']->attaque($monstre);
 $monstre->attaque($_SESSION['personnage']);
 $monstre->mort();
-$_SESSION['personnage']->mort();
-
-
+var_dump($monstre);
+var_dump($_SESSION['personnage']);

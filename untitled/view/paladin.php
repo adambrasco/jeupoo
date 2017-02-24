@@ -1,29 +1,29 @@
 <?php
 class Paladin
 {
-    private $magie = 50;
-    private $attaque = 50;
-    private $vie = 100;
+    public $attaque = 70;
+    public $vie = 100;
     private $armure = 50;
     private $arme;
     private $degats;
     private $experience = 0;
 
-    public function attaquer($monstreAFrapper)
+    public function regenerer($vie = 19)
     {
-        $monstreAFrapper->degats +=$this->attaque;
+        if(is_null($vie)){
+            $this->vie = 100;
+        }else{
+            $this->vie += $vie;
+        }
     }
-    public function sort($monstreAFrapper)
+    public function attaque($cible)
     {
-        $monstreAFrapper->degats +=$this->magie;
+
+        $cible->degats($this->attaque);
     }
-    public function force()
+    public function degats($degats)
     {
-        return $this->force;
-    }
-    public function degats()
-    {
-        return $this->degats;
+        $this->vie -= $degats;
     }
     public function experience()
     {
@@ -31,9 +31,10 @@ class Paladin
     }
     public function mort()
     {
-        $this->vie = 0;
+        if ($this->vie <= 0){
+            echo "il vous reste" .$this->vie. "";
+        }else{
+            echo "<br>il vous reste" .$this->vie. "points de vie";
+        }
     }
 }
-
-$paladin = new Paladin;
-

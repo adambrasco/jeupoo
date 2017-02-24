@@ -1,8 +1,8 @@
 <?php
 class Guerrier
 {
-    private $attaque = 80;
-    private $vie = 100;
+    public $attaque = 80;
+    public $vie = 100;
     private $armure = 50;
     private $arme;
     private $degats;
@@ -31,8 +31,10 @@ class Guerrier
     }
     public function mort()
     {
-        return $this->vie <= 0;
+        if ($this->vie <= 0){
+            echo "il vous reste" .$this->vie. "";
+        }else{
+            echo "<br>il vous reste" .$this->vie. "points de vie";
+        }
     }
 }
-
-$guerrier = new Guerrier;

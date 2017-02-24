@@ -14,7 +14,7 @@ class salledonjon
 
     }
 
-    public function ouvriruncoffre()
+    public function ouvriruncoffre($coffres)
     {
         $this->coffres = array_rand($coffres, 2);
     }

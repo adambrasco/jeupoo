@@ -2,7 +2,7 @@
 class Monstre
 {
     private $attaque = 50;
-    private $vie = 100;
+    public $vie = 100;
     private $armure = 50;
     private $arme;
     private $experience = 0;
@@ -25,7 +25,12 @@ class Monstre
 
     public function mort()
     {
-        $this->vie = 0;
+        if ($this->vie <= 0){
+            echo "<br>le monstre est mort";
+        }else{
+            echo "<br> Il reste " .$this->vie. " de vie au monstre";
+        }
+
     }
 
     public function getVie()
@@ -33,5 +38,3 @@ class Monstre
         return $this->vie;
     }
 }
-
-$monstre = new Monstre;
