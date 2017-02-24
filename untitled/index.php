@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+session_destroy();
+
+?>
+
 <head>
     <!-- Css -->
     <link rel="stylesheet" type="text/css" href="css/index.css">

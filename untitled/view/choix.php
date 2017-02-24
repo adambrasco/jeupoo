@@ -21,7 +21,7 @@ require_once 'magicien.php';
 require_once 'paladin.php';
 require_once 'monstre.php';
 require_once 'jeu.php';
-session_start();
+
 
 ?>
 <div class="container col-lg-10 col-md-offset-1 ">

@@ -5,7 +5,7 @@ class Guerrier
     public $vie = 100;
     private $armure = 50;
     private $arme;
-    private $degats;
+    public $degats;
     private $experience = 0;
 
     public function regenerer($vie = 19)

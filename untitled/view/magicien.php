@@ -1,8 +1,8 @@
 <?php
 class Mage
 {
-    private $magie = 100;
-    private $vie = 100;
+    public $attaque = 100;
+    public $vie = 100;
     private $armure = 50;
     private $arme;
     private $degats;
@@ -11,7 +11,7 @@ class Mage
     public function attaque($cible)
     {
 
-        $cible->degats($this->magie);
+        $cible->degats($this->attaque);
     }
     public function degats($degats)
     {

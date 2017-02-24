@@ -1,5 +1,9 @@
 <?php
-class Jeu extends guerrier{
+
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+
+class Jeu extends Guerrier {
 
     public $perso;
 
@@ -23,3 +27,4 @@ class Jeu extends guerrier{
 
     }
 }
+
